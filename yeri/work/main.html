@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="메인페이지.css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.css" />
+</head>
+<body>
+
+<div class="bg-img">
+  <div class="container">
+    <nav class="topnav-wrapper">
+      <div class="topnav">
+      <a class="homebutton"><img src="img/winglogo.svg" style="margin-right: 8px;"  alt="winglogo">해양환경 위기대응 통합시스템</a>
+      <a><span class="material-symbols-outlined" style="margin-right: 8px;">pageview</span>사고조회</a>
+     <div class="dropdown">
+  <a class="dropdown-toggle">
+    <span class="material-symbols-outlined" style="margin-right: 8px;">mindfulness</span>예측
+    <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span>
+  </a>
+
+  <!--예측 드롭다운-->
+  <div class="dropdown-content">
+    <div class="submenu-wrap">
+    <a class="submenu-toggle">유출유 확산예측
+    <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span></a>
+    <div class="submenu">
+    <a>예측 목록</a>
+    <a>유출유 확산 예측</a>
+    </div>
+    </div>
+   <div class="submenu-wrap">
+  <a class="submenu-toggle">정밀 비구조격자 해양예측
+  <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span></a>
+  <div class="submenu">
+    <a>예측 목록</a>
+    <a>정밀 비구조격자 해양예측</a>
+  </div>
+  </div>
+     <div class="submenu-wrap">
+  <a class="submenu-toggle">현장탐색 정보표출
+  <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span></a>
+  <div class="submenu">
+    <a>오염정보 목록</a>
+    <div class="submenu-wrap">
+        <a class="submenu-toggle">업로드
+          <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span>
+        </a>
+        <div class="submenu-wrap">
+          <a>유/무인기 업로드</a>
+          <a>디지털 카메라 업로드</a>
+           <a>유/무인기 업로드 목록</a>
+          <a>디지털 카메라 업로드 목록</a>
+        </div>
+      </div>
+  </div>
+  </div>
+      </div>
+      </div>
+
+      <a><span class="material-symbols-outlined" style="margin-right: 8px;">partly_cloudy_day</span>기상정보</a>
+      <a><span class="material-symbols-outlined" style="margin-right: 8px;">directions_boat</span>해경자산</a>
+      
+      <!--게시판, 오염조사-->
+      <div class="dropdown">
+      <a class="dropdown-toggle">
+      <span class="material-symbols-outlined" style="margin-right: 8px;">filter_frames</span>게시판
+      <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span>
+      </a>
+       <div class="dropdown-content">
+        <a>공지사항</a>
+        <a>게시판</a>
+        <a>Q&A</a>
+      </div>
+      </div>
+      <div class="dropdown">
+      <a class="dropdown-toggle">
+      <span class="material-symbols-outlined" style="margin-right: 8px;">lab_research</span>오염조사
+      <span class="material-symbols-outlined arrow-icon">keyboard_arrow_down</span>
+      </a>
+       <div class="dropdown-content">
+        <a>해안오염 조사평가</a>
+        <a>해안오염분포도</a>
+      </div>
+      </div>
+      
+  <!--검색창부터-->
+      <form class="searchbar">
+        <div class="search-input-wrapper">
+        <span class="material-symbols-outlined" style="color: #fff;">search</span>
+        <input type="text" placeholder="검색" name="q" />
+        </div>
+      </form>
+      <a class="mapmenu"><img src="img/map.svg" style="margin-right: 10px;">지도</a>
+      <a class="videomenu">
+        <img src="img/video.svg" class="video-icon default" alt="video">
+        <img src="img/video_w.svg" class="video-icon hover" alt="video-hover">
+        영상</a>
+<a class="smallmenu">
+        <span class="material-icons" style="border-left: 1px solid #6972A3; padding-left: 24px;">star</span>
+        <span class="tooltip">즐겨찾기</span>
+      </a>
+      <a class="smallmenu_2">
+      <span class="material-icons">notifications</span>
+      <span class="tooltip">알림</span>
+      </a>
+      <a class="smallmenu_2">
+      <span class="material-icons">person</span>
+      <span class="tooltip">계정</span>
+      </a>
+      <a class="smallmenu_2"><span class="material-symbols-outlined">menu</span></a>
+      </div>
+
+
+  <!--퀵메뉴-->
+   <div class="sidebar-right">
+    <a class="menu-item" style="margin-top: 16px;"><span class="material-symbols-outlined">stacks</span>
+     <span class="tooltip">레이어</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">activity_zone</span>
+    <span class="tooltip">구역설정</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">arrow_range</span>
+    <span class="tooltip">거리</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">arrow_circle_right</span>
+     <span class="tooltip">거리환산</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">download</span>
+     <span class="tooltip">다운로드</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">photo_camera</span>
+     <span class="tooltip">캡쳐</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">refresh</span>
+    <span class="tooltip">새로고침</span></a>
+    <a class="menu-item"><span class="material-symbols-outlined">mobile_chat</span>
+    <span class="tooltip">SMS</span></a>
+
+    <a class="menu-item_2"><img src="img/oceanmap.jpg" alt="버튼"/>
+    <div class="item-label">S-57</div> 
+    </a>
+    <a class="menu-item_3"><img src="img/oceanmap.jpg" alt="버튼"/>
+    <div class="item-label">S-101</div> 
+    </a>
+     <a class="menu-item_3"><img src="img/generalmap.jpg" alt="버튼"/>
+    <div class="item-label">3D</div> 
+    </a>
+  <div class="zoom-controls">
+  <button class="zoom-btn zoom-in" style="border-radius: 4px 4px 0 0;">+</button>
+  <button class="zoom-btn zoom-out" style="border-radius: 0 0 4px 4px;">−</button>
+  <button class="icon-btn" title="추가 버튼">
+    <span class="material-symbols-outlined">format_list_bulleted</span>
+  </button>
+  </div>
+  </nav>  
+    </div>
+  </div>
+</body>
+</html>
